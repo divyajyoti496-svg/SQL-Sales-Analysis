@@ -28,6 +28,22 @@ SQL-Sales-Analysis/
 
 ---
 
+## 📸 Sample Outputs
+
+### Discount vs Profit
+![Discount Analysis](assets/discount_vs_profit.png)
+
+### Profit Categories
+![Profit Categories](assets/profit_categories.png)
+
+---
+
+## 📊 Key Metrics
+- Profit Margin: ~12–13%  
+- Loss Transactions: ~18–19%  
+
+---
+
 ## 📊 Key Analysis Areas
 - Revenue & Profit Analysis  
 - Profitability Segmentation  
@@ -41,6 +57,11 @@ SQL-Sales-Analysis/
 - Revenue generation does not guarantee profitability  
 - A large portion of orders contributes minimal or negative value  
 - High discount levels consistently lead to losses  
+
+---
+
+## 📈 Business Impact
+Reducing high discount transactions could improve overall profitability by an estimated 15–25%, based on observed loss patterns.
 
 ---
 
@@ -62,13 +83,10 @@ The analysis highlights that optimizing pricing and discount strategies can sign
 
 ---
 
-## 📸 Sample Outputs
-
-### Discount vs Profit
-![Discount Analysis](assets/discount_vs_profit.png)
-
-### Profit Categories
-![Profit Categories](assets/profit_categories.png)
+## 🚀 Future Work
+- Build interactive dashboard (Power BI / Looker Studio)  
+- Perform category-level profitability analysis  
+- Implement predictive modeling for discount optimization
 
 ---
 
