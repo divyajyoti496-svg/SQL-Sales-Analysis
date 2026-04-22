@@ -78,4 +78,12 @@ SELECT
 FROM sales
 GROUP BY discount_bucket;
 
+-- 11. Loss Transaction Percentage (KPI)
+SELECT 
+    ROUND(
+        (SUM(CASE WHEN Profit < 0 THEN 1 ELSE 0 END) * 100.0) / COUNT(*),
+        2
+    ) AS loss_transaction_percent
+FROM sales;
+
 -- Insight: Higher discounts lead to negative profitability

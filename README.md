@@ -41,7 +41,7 @@ SQL-Sales-Analysis/
 ## 📊 Key Metrics
 - Profit Margin: ~12–13%  
 - Loss Transactions: ~18–19%  
-
+- Loss Transactions: ~18%
 ---
 
 ## 📊 Key Analysis Areas
@@ -57,6 +57,13 @@ SQL-Sales-Analysis/
 - Revenue generation does not guarantee profitability  
 - A large portion of orders contributes minimal or negative value  
 - High discount levels consistently lead to losses  
+
+---
+
+## 📊 Visual Analysis
+
+### Discount vs Average Profit
+![Discount vs Profit](assets/discount_profit_chart.png)
 
 ---
 
