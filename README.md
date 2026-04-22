@@ -64,7 +64,7 @@ SQL-Sales-Analysis/
 
 ### Discount vs Average Profit
 ![Discount vs Profit](assets/discount_profit_chart.png)
-
+High discount levels consistently result in negative average profit, reinforcing the need for controlled pricing strategies.
 ---
 
 ## 📈 Business Impact
