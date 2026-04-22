@@ -62,6 +62,16 @@ The analysis highlights that optimizing pricing and discount strategies can sign
 
 ---
 
+## 📸 Sample Outputs
+
+### Discount vs Profit
+![Discount Analysis](assets/discount_vs_profit.png)
+
+### Profit Categories
+![Profit Categories](assets/profit_categories.png)
+
+---
+
 ## 📎 Detailed Insights
 For complete analysis and interpretation:
 👉 Refer to `insights.md`

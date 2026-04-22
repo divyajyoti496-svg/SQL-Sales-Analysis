@@ -53,6 +53,19 @@ SELECT
 FROM sales
 GROUP BY profit_category;
 
+-- 9.1 Profit Margin %
+SELECT 
+    ROUND((SUM(Profit) * 100.0 / SUM(Sales)), 2) AS profit_margin_percent
+FROM sales;
+
+-- 9.2 Loss Rate %
+SELECT 
+    ROUND(
+        (SUM(CASE WHEN Profit < 0 THEN 1 ELSE 0 END) * 100.0) / COUNT(*),
+        2
+    ) AS loss_transaction_percent
+FROM sales;
+
 -- 10. Discount Buckets Analysis
 SELECT 
     CASE 
