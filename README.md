@@ -1,9 +1,17 @@
-# 📊 SQL Sales Analysis
+# 📊 How Discounting Destroyed Profitability in Retail (SQL + Python Analysis)
 
 ## 🔍 Overview
 This project analyzes retail sales data using SQL to uncover key business insights related to revenue, profitability, and discount strategies.
 
 The objective is to identify factors impacting profit and provide actionable recommendations to improve overall business performance.
+
+## Key Findings
+
+• ~1900+ transactions were loss-making  
+• Profit turns negative at higher discount ranges  
+• Majority of orders fall into low-profit category  
+
+Conclusion: Revenue growth ≠ Profitability
 
 ---
 
@@ -11,6 +19,7 @@ The objective is to identify factors impacting profit and provide actionable rec
 - SQL (SQLite)  
 - VS Code  
 - CSV Dataset  
+-SQL findings were further validated using Python visualization
 ---
 
 ## ▶️ How to Run
@@ -107,10 +116,10 @@ Despite strong revenue generation, the business suffers from **margin inefficien
 ---
 
 ## 💡 Recommendations
-- Restrict high discount ranges to prevent loss-making transactions  
-- Implement profit-based pricing strategies  
-- Focus on high-margin sales segments  
-- Monitor and reduce loss-making orders  
+
+• Limit high discount strategies  
+• Focus on high-margin product segments  
+• Re-evaluate pricing for loss-making orders   
 
 ---
 
