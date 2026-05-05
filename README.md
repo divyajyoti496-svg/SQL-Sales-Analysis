@@ -11,6 +11,33 @@ The objective is to identify factors impacting profit and provide actionable rec
 - SQL (SQLite)  
 - VS Code  
 - CSV Dataset  
+---
+
+## ▶️ How to Run
+
+### Prerequisites
+- Python 3.8+
+- SQLite (built into Python)
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/divyajyoti496-svg/SQL-Sales-Analysis.git
+cd SQL-Sales-Analysis
+```
+
+### 2. Install dependencies
+```bash
+pip install pandas matplotlib seaborn
+```
+
+### 3. Generate the charts
+```bash
+python analysis.py
+```
+Charts will be saved to the `assets/` folder.
+
+### 4. Run the SQL queries
+Open `queries/analysis.sql` in any SQLite-compatible tool (e.g., DB Browser for SQLite, or VS Code with the SQLite extension) and run against `superstore.db` — or recreate the DB by loading `data/samplesuperstore.csv`.
 
 ---
 
