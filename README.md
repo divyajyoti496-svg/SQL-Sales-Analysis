@@ -41,7 +41,7 @@ SQL-Sales-Analysis/
 ## 📊 Key Metrics
 - Profit Margin: ~12–13%  
 - Loss Transactions: ~18–19%  
-- Loss Transactions: ~18%
+
 ---
 
 ## 📊 Key Analysis Areas

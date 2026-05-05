@@ -44,7 +44,6 @@ Negative profit at higher discounts
 - Pricing strategy appears to prioritize volume over margin. 
 
 ## 6. Business Recommendations
--## 6. Business Recommendations
 - Restrict high discount offerings, especially beyond 30–40%, to prevent loss-making transactions.
 - Implement profit-based discount thresholds to ensure margins are protected.
 - Focus on optimizing pricing strategy rather than increasing sales volume through discounts.

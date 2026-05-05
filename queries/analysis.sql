@@ -87,3 +87,39 @@ SELECT
 FROM sales;
 
 -- Insight: Higher discounts lead to negative profitability
+-- Query 5: Top 10 Customers by Profit using RANK()
+SELECT
+    customer_name,
+    ROUND(SUM(profit), 2) AS total_profit,
+    RANK() OVER (ORDER BY SUM(profit) DESC) AS profit_rank
+FROM superstore
+GROUP BY customer_name
+ORDER BY profit_rank
+LIMIT 10;
+
+
+-- Query 6: Month-over-Month Revenue Trend using LAG()
+SELECT
+    order_month,
+    ROUND(total_revenue, 2) AS total_revenue,
+    ROUND(LAG(total_revenue) OVER (ORDER BY order_month), 2) AS prev_month_revenue,
+    ROUND(total_revenue - LAG(total_revenue) OVER (ORDER BY order_month), 2) AS revenue_change
+FROM (
+    SELECT
+        STRFTIME('%Y-%m', order_date) AS order_month,
+        SUM(sales) AS total_revenue
+    FROM superstore
+    GROUP BY order_month
+) monthly_sales
+ORDER BY order_month;
+
+
+-- Query 7: Profit by Sub-Category ranked within each Category
+SELECT
+    category,
+    sub_category,
+    ROUND(SUM(profit), 2) AS total_profit,
+    RANK() OVER (PARTITION BY category ORDER BY SUM(profit) DESC) AS rank_in_category
+FROM superstore
+GROUP BY category, sub_category
+ORDER BY category, rank_in_category;
