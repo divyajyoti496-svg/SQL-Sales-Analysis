@@ -57,11 +57,13 @@ SQL-Sales-Analysis/
 
 ## 📸 Sample Outputs
 
-### Discount vs Profit
-![Discount Analysis](assets/discount_vs_profit.png)
+## 📊 Discount vs Profit
 
-### Profit Categories
-![Profit Categories](assets/profit_categories.png)
+![Discount vs Profit](assets/discount_profit_chart.png)
+
+## 📊 Profit Categories
+
+![Profit Categories](assets/profit_category.png)
 
 ---
 
